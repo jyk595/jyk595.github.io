@@ -1,0 +1,239 @@
+body {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: "Source Sans Pro";
+	font-size: 15px;
+	color: #000;
+	line-height: 200%;
+}
+
+h1 {
+	font-family: "Satisfy", "Brush Script MT";
+}
+
+h2 {
+	font-size: 20px;
+	color: #ccc;
+}
+
+h3 {
+	font-size: 25px;
+	color: #666666;
+	text-align: left;
+	padding-left: 10%;
+}
+
+h4 {
+	font-size: 25px;
+	color: #a3a3a3;
+	text-align: left;
+	margin-top: 5px;
+}
+
+p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header {
+	padding-right: 5%;
+	padding-top: 2%;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(0%,#4d8fd1), color-stop(0%,#519ad6), color-stop(100%,#89bde5)); /* Chrome,Safari4+ */
+	width: 95%;
+	height: 300px;
+	color: #fff;
+	text-align: right;
+}
+
+.header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header ul {
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header ul li {
+	display: inline;
+	padding-right: 25px;
+}
+
+#faceimg img {
+	width: 200px;
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 175px;
+	color: #000;
+	text-align: center;
+}
+
+#faceimg h1 {
+	color: rgb(131,172,213);
+	font-size: 50px;
+	text-align: center;
+}
+
+.intro-text {
+	padding: 0 10%;
+	padding-top: 225px;
+}
+
+.inspo {
+	padding: 75px 10%;
+	text-align: right;
+}
+
+.inspo img {
+	width: 100%;
+}
+
+.inspo ul {
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.inspo li {
+	float: left;
+	position: relative;
+	width: 18.4%;
+	height: auto;
+	padding-right:2%;
+}
+
+.inspo li:nth-child(5){
+	padding: 0;
+}
+
+.inspo h2 a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.inspo h2 a:hover {
+	color: #0000ff;
+}
+
+.middle-text {
+	padding: 0 10%;
+}
+
+.linkouts {
+	padding: 75px 10% 400px 10%;
+}
+
+.linkouts ul {
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.linkouts li {
+	float: left;
+	width: 20%;
+	padding: 0 12%;
+}
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(131,172,213);
+}
+
+.footer-text {
+	padding: 10px 10%;
+	color: #666;
+}
+
+#resume-box {
+	font-family: "Courier New";
+	margin: 0 10%;
+	border: 2px solid #efefef;
+	background: #efefef;
+	color: #666666;
+	width: 80%;
+	font-size: 17px;
+}
+
+.resume-inside {
+	padding: 5%;
+}
+
+.resume-inside h4:first-child {
+	color: #0000ff;
+	margin: 0;
+}
+
+.resume-inside #experience h4 {
+	color: #ff0000;
+}
+
+.resume-inside #skillz h4 {
+	color: #FF9933;
+}
+
+.box {
+	width: 100%;
+	height: 250px;
+	opacity: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#download-pdf {
+	background: #006B24;
+	color: #fff;
+	width: 250px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 20px;
+	padding: auto;
+	font-family: "Courier New";
+	font-size: 20px;
+}
+
+#download-pdf p {
+	padding-top: 10px;
+}
+
+.contact-headline {
+	padding: 0 10%;
+}
+
+.email {
+	padding: 0px 10% 0px 10%;
+	font-family: "Courier New";
+	color: #0000ff;
+}
+
+.email a {
+	color: #0000ff;
+}
+
+.phone {
+	padding: 0px 10% 0px 10%;
+	font-family: "Courier New";
+	color: #ff0000;
+}
+
+.telekinesis {
+	padding: 0px 10% 0px 10%;
+	font-family: "Courier New";
+	color: #FF9933;
+}
+
+strong {
+	font-weight: bold;
+}
