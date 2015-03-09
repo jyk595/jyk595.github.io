@@ -1,0 +1,201 @@
+body {
+	font-family: "Lato";
+}
+
+#header {
+	padding-top: 70px;
+	margin: 0 5%;
+}
+
+#logo {
+	font-weight: lighter;
+	color: orange;
+	font-size: 50px;
+}
+
+#tagline {
+	font-weight: lighter;
+	color: #444444;
+	font-size: 17px;
+	margin-left: 2%;
+}
+
+#nav {
+	text-decoration: none;
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+
+#nav li {
+	width: 16.4%;
+	color: white;
+	background: black;
+	display: inline-block;
+	margin: auto;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#nav li:hover {
+	background: white;
+	color: black;
+}
+
+h2 {
+	color: #cccccc;
+	font-weight: lighter;
+	font-size: 25px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	color: #444444;
+	font-weight: lighter;
+	font-size: 25px;
+	padding: 0;
+	margin: 10px 0;
+}
+
+p span {
+	font-size: 80px;
+	font-weight: lighter;
+	color: #cccccc;
+	display: inline-block;
+	float: left;
+	margin: -30px 10px -30px 0;
+	padding: 0;
+}
+
+p {
+	color: #444444;
+	display: inline;
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+.blog_post img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+h4 {
+	color: orange;
+	text-align: right;
+	font-size: 15px;
+}
+
+h4:hover {
+	color: #aa0000;
+}
+
+h4:hover {
+	color: #aa0000;
+}
+
+#container {
+	overflow: hidden;
+	margin: 0 5%;
+	padding-bottom: 50px;
+	border-bottom: #cccccc solid 1px;
+}
+
+.blog_post {
+	border-bottom: #cccccc solid 3px;
+}
+
+.blog_post:nth-child(2) {
+	margin-top: 50px;
+}
+
+#blog_section {
+	float: left;
+	display: inline;
+	width: 60%;
+	margin-top: 60px;
+}
+
+#right_rail {
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 50px 0 0 5%;
+}
+
+#right_rail h2 {
+	color: #444444;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.about_us {
+	border-bottom: #cccccc solid 3px;
+}
+
+#right_rail img {
+	margin: 20px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ad_space {
+	border-bottom: #cccccc solid 3px;
+}
+
+.popular_posts {
+	margin: 20px 0;
+}
+
+#right_rail li {
+	color: orange;
+	list-style: none
+}
+
+#right_rail li:hover {
+	color: #aa0000;
+}
+
+#right_rail li:before {
+	content: '\2022';
+	display: block;
+	position: relative;
+	max-width: 0;
+	max-height: 0;
+	left: -20px;
+	color: #cccccc;
+	font-size: 15px;
+}
+
+
+#footer {
+	margin: 30px 5%;
+	text-decoration: none;
+}
+
+#footer ul {
+	padding-left: 0;
+}
+
+.foot_nav li {
+	display: inline-block;
+	border-left: 1px solid #cccccc;
+	padding: 8px;
+	font-size: 15px;
+	line-height: 3px;
+	color: orange;
+}
+
+.foot_nav li:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+
+.foot_nav li:hover {
+	color: #aa0000;
+}
+
+.footer p {
+	color: #bbbbbb;
+}
