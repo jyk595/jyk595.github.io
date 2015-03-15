@@ -2,7 +2,7 @@ body {
 	font-family: "Lato";
 }
 
-#header {
+header {
 	padding-top: 70px;
 	margin: 0 5%;
 }
@@ -74,7 +74,7 @@ p {
 	font-size: 15px;
 }
 
-.blog_post img {
+article img {
 	width: 100%;
 	margin: 20px 0;
 }
@@ -100,11 +100,11 @@ h4:hover {
 	border-bottom: #cccccc solid 1px;
 }
 
-.blog_post {
+article {
 	border-bottom: #cccccc solid 3px;
 }
 
-.blog_post:nth-child(2) {
+article:nth-child(2) {
 	margin-top: 50px;
 }
 
@@ -115,14 +115,14 @@ h4:hover {
 	margin-top: 50px;
 }
 
-#right_rail {
+aside {
 	display: block;
 	float: left;
 	width: 35%;
 	margin: 50px 0 0 5%;
 }
 
-#right_rail h2 {
+aside h2 {
 	color: #444444;
 	font-size: 15px;
 	font-weight: bold;
@@ -133,7 +133,7 @@ h4:hover {
 	border-bottom: #cccccc solid 3px;
 }
 
-#right_rail img {
+aside img {
 	margin: 20px 0;
 	display: block;
 	margin-left: auto;
@@ -148,16 +148,16 @@ h4:hover {
 	margin: 20px 0;
 }
 
-#right_rail li {
+aside li {
 	color: orange;
 	list-style: none
 }
 
-#right_rail li:hover {
+aside li:hover {
 	color: #aa0000;
 }
 
-#right_rail li:before {
+aside li:before {
 	content: '\2022';
 	display: block;
 	position: relative;
@@ -169,12 +169,12 @@ h4:hover {
 }
 
 
-#footer {
+footer {
 	margin: 30px 5%;
 	text-decoration: none;
 }
 
-#footer ul {
+footer ul {
 	padding-left: 0;
 }
 
