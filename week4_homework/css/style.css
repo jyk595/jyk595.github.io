@@ -1,0 +1,33 @@
+body {
+	font-family: "Roboto";
+	background-color: white;
+}
+
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #666666;
+}
+
+.inside_box {
+	margin: 0 auto;
+	margin-top: 200px;
+	width: 40%;
+	padding: 30px;
+	background-color: white;
+	text-align: center;
+	overflow: hidden;
+}
+
+.box {
+	width: 50%;
+	margin: 50px 0;
+	float: left;
+}
+
+.input {
+	height: 30px;
+	margin-top: 10px;
+	width: 50%;
+	text-align: center;
+}
