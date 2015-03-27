@@ -6,7 +6,7 @@ function changeFahrenheit() {
 
 function changeCelsius() {
 	var degreeFahrenheit = document.getElementById("fdegree").value;
-	var degreeCelsius = ((degreeFahrenheit-32)*5)/9
+	var degreeCelsius = ((degreeFahrenheit-32)*5)/9;
 	document.getElementById("cdegree").value = degreeCelsius;
 	changeImage(degreeCelsius);
 }
