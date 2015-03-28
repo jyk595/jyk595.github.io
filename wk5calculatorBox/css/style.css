@@ -1,0 +1,23 @@
+#app {
+	font-family: monospace;
+	margin: 100px 5%;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.row div {
+	text-align: center;
+	width: 13%;
+	padding: 30px;
+	border: 1px dashed #252525;
+	float: left;
+	overflow: hidden;
+}
+
+.row div:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}
