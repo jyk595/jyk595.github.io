@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$("#paragraphs").click(function(){
 		$(this).val("");
-		$(".ipsum").hide();
+		$(".ipsum").slideUp(500);
 	});
 
 	$("#paragraphs").keypress(function(e){
@@ -12,7 +12,7 @@ $(document).ready(function(){
 				alert("Please enter a value");
 			} else {
 				$("p:lt(" + value + ")").show();
-				$(".ipsum").show();
+				$(".ipsum").slideDown(1000);
 			};
 		};
 	});
@@ -24,9 +24,7 @@ $(document).ready(function(){
 			alert("Please enter a value");
 		} else {
 			$("p:lt(" + value + ")").show();
-			$(".ipsum").show();
+			$(".ipsum").slideDown(1000);
 		};
 	});
-
-
 })

@@ -1,0 +1,398 @@
+body {
+	font-family: "Courier New";
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	overflow: visible;
+	padding: 20px 0 20px 20px;
+	margin: 0;
+	background-color: #2396e9;
+}
+
+h2 {
+	font-size: 25px;
+	color: white;
+}
+
+p {
+	font-size: 15px;
+	color: #666666;
+}
+
+strong {
+	font-weight: bold;
+	color: blue;
+}
+
+.headerArea {
+	margin-right: 2%;
+	margin-top: 15px;
+	display: block;
+	float: left;
+	position: fixed;
+	overflow: hidden;
+}
+
+.headerText {
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 13px 7px 20px;
+	background-color: white;
+	color: black;
+	margin-bottom: 7px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.introBox {
+	background-color: transparent;
+}
+
+.jykBox {
+	text-transform: lowercase;
+}
+
+#container {
+	width: 100%;
+	margin-right: 5%;
+}
+
+#intro {
+	background: -webkit-linear-gradient(top, #2396e9 0%,#2396e9 73%,#b98511 100%); /* Chrome10+,Safari5.1+ */
+	padding-bottom: 100px;
+	padding-left: 14%;
+	overflow: hidden;
+}
+
+#intro h1 {
+	padding-left: 0;
+}
+
+.paper {
+	width: 478px;
+	height: 619px;
+	text-align: left;
+	background-color: #FFF0EF;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: justify;
+	line-height: 17px;
+	overflow: hidden;
+	float: left;
+	box-shadow: 5px 10px 20px #666666;
+	margin-left: 14%;
+
+}
+
+#inspiration {
+	background: -webkit-linear-gradient(top, #b98511 0%,#b98511 73%,#ed3594 100%); /* Chrome10+,Safari5.1+ */
+	padding: 100px 20px;
+	padding-left: 14%;
+	overflow: hidden;
+}
+
+.row1 {
+	overflow: hidden;
+}
+
+.credit {
+	color: #7F5C0C;
+	font-size: 10px;
+	font-style: italic;
+	display: block;
+	float: right;
+	padding: 7px;
+	text-align: right;
+	margin-top: -5px;
+}
+
+.bianca {
+	margin-right: 20px;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+.roberts {
+	margin-right: 20px;
+	overflow: hidden;
+	display: inline-block;
+	width: 300px;
+}
+
+.roberts img {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.mapplethorpe {
+	overflow: hidden;
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+}
+
+.mapplethorpe img {
+	float: left;
+	width: 100%;
+	padding-top: 200px;
+}
+
+.row2, .row3, .row4 {
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.row5 {
+	overflow: hidden;
+}
+
+.time {
+	overflow: hidden;
+	display: inline-block;
+	width: 150px;
+	padding-left: 200px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.time img {
+	float: left;
+	width: 100%;
+}
+
+.opie {
+	overflow: hidden;
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.opie img {
+	float: left;
+	width: 100%;
+}
+
+.celine {
+	overflow: hidden;
+	display: inline-block;
+	width: 200px;
+	padding-left: 60px;
+}
+
+.celine img {
+	float: left;
+	width: 100%;
+}
+
+.charlieMay {
+	overflow: hidden;
+	display: inline-block;
+	width: 250px;
+	padding-left: 100px;
+	vertical-align: bottom;
+}
+
+.charlieMay img {
+	float: left;
+	width: 100%;
+}
+
+.lain {
+	overflow: hidden;
+	display: inline-block;
+	width: 330px;
+	padding-left: 20px;
+	vertical-align: bottom;
+}
+
+.lain img {
+	float: left;
+	width: 100%;
+}
+
+.loewe {
+	overflow: hidden;
+	display: inline-block;
+	width: 500px;
+	padding-left: 450px;
+	vertical-align: bottom;
+}
+
+.loewe img {
+	float: right: ;
+	width: 100%;
+}
+
+.vfiles {
+	overflow: hidden;
+	display: inline-block;
+	width: 560px;
+	vertical-align: top;
+}
+
+.helen {
+	overflow: hidden;
+	display: inline-block;
+	width: 250px;
+	padding-left: 20px;
+	vertical-align: bottom;
+}
+
+.helen img {
+	float: right: ;
+	width: 100%;
+}
+
+.cocktail {
+	overflow: hidden;
+	display: inline-block;
+	width: 180px;
+	padding-left: 20px;
+	padding-top: 175px;
+	vertical-align: top;
+}
+
+.cocktail img {
+	float: right: ;
+	width: 100%;
+}
+
+#music {
+	background: -webkit-linear-gradient(top, #ed3594 0%,#ed3594 73%,#7F7F7F 100%); /* Chrome10+,Safari5.1+ */
+	padding: 100px 0;
+	padding-left: 20%;
+	overflow: hidden;
+}
+
+.spotifyWidget {
+	display: block;
+	float: left;
+	margin-right: 5%;
+	width: 35%;
+}
+
+.tracklist {
+	display: block;
+	float: left;
+	line-height: 20px;
+	color: #efefef;
+	width: 40%;
+}
+
+.tracklist p {
+	font-weight: bold;
+	color: rgb(22,9,90);	
+}
+
+button {
+	padding: 15px 50px;
+	color: white;
+	border: none;
+	font-family: helvetica;
+}
+
+button a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#music button {
+	background-color: #81b71a;
+}
+
+#shop {
+	background: -webkit-linear-gradient(top, #7F7F7F 0%,#7F7F7F 73%,#249c48 100%); /* Chrome10+,Safari5.1+ */
+	padding: 100px 20px;
+	padding-left: 14%;
+	overflow: hidden;
+}
+
+.overview {
+	display: block;
+	float: left;
+}
+
+.item {
+	display: block;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.item img 	{
+	width: 200px;
+	height: 200px;
+}
+
+.item p:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.itemDescription {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 700px;
+	height: 252px;
+	margin-bottom: 50px;
+}
+
+.buyMe {
+	text-transform: uppercase;
+	font-size: 15px;
+	background-color: #2396e9;
+}
+
+#jyk {
+	background-color: #249C48;
+	padding: 100px 20px 200px 0;
+	padding-left: 14%;
+	overflow: hidden;
+}
+
+.selfie {
+	width: 300px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+.selfie img {
+	width: 100%;
+}
+
+.bio {
+	width: 650px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+ul {
+	color: #efefef;
+	list-style-type: none;
+}
+
+#jyk li {
+	margin-bottom: 10px;
+}
+
+#jyk strong {
+	color: #E8D1D1;
+	font-weight: normal;
+}
+
+#jyk a {
+	text-decoration: none;
+	color: #efefef;
+}
+
+#jyk button {
+	background-color: #CC831B;
+}
