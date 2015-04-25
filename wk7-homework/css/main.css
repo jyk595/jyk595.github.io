@@ -220,6 +220,10 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+	body {
+		font-size: 13px;
+	}
+
 	.button {
 		width: 100%;
 	}
