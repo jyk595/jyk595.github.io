@@ -1,0 +1,236 @@
+body {
+	font-family: "Source Sans Pro";
+	width: 100%;
+	font-size: 20px;
+}
+
+#hamburgerSlideOut {
+	height: 100%;
+	width: 40%;
+	background-color: black;
+	display: none;
+	z-index: 10000;
+}
+
+#hamburgerSlideOut a {
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	display: block;
+	padding: 2em 0 0 1em;
+}
+
+#page-header {
+	height: 2.5em;
+	overflow: hidden;
+	background-color: black;
+	padding: .5em 3%;
+	line-height: 2.5em;
+	border-bottom: 2px yellow solid;
+}
+
+#page-header h1 {
+	font-family: "Merriweather";
+	text-decoration: none;
+	color: yellow;
+	display: inline-block;
+	float: left;
+	font-size: 1em;
+}
+
+#hamburger {
+	display: none;
+	float: left;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	margin-right: .75em;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+	padding-left: 1em;
+	text-align: center;
+	font-size: 1em;
+}
+
+nav strong {
+	text-transform: uppercase;
+	font-family: "Oswald";
+}
+
+.tagline {
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-family: "Merriweather";
+	font-size: 1em;
+	background-color: #cccccc;
+	margin: 0;
+	padding: .5em 0;
+}
+
+#taste {
+	color: #666666;
+	text-decoration: line-through;
+}
+
+.smallImage {
+	display: none;
+}
+
+.banner {
+	background-image: url("../images/coworking.jpg");
+	padding: 5%;
+	overflow: hidden;
+	height: 100%;
+}
+
+.blurb {
+	width: 30%;
+	background-color: rgba(255, 255, 255, .9);
+	padding: 5%;
+	box-shadow: 3px 3px 5px #888888;
+	float: right;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+p {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact;
+  color: black;
+  border-radius: 5px;
+  background-color: yellow;
+  box-shadow: 0 5px 0 0 gray;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  box-shadow: none;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.callouts {
+	overflow: hidden;
+}
+
+.callout {
+	display: block;
+	float: left;
+	width: 23.3%;
+	padding: 5%;
+}
+
+h3 {
+	font-family: "Merriweather";
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+.callout p {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.callout .button {
+	background-color: #efefef;
+  box-shadow: 0 5px 0 0 #cccccc;
+}
+
+.callout .button:hover {
+  box-shadow: none;
+  margin-top: 1.25em;
+  margin-bottom: 0;
+}
+
+footer {
+	background-color: black;
+	color: #cccccc;
+  padding: 1em 0;
+	padding: .5em 3%;
+	font-size: .75em;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 17px;
+	}
+	
+	#hamburger {
+		display: block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.banner {
+		padding: 1em 0;
+		background-image: none;
+		margin-top: -1em;
+	}
+
+	.blurb {
+		width: 90%;
+		box-shadow: none;
+	}
+
+	.smallImage {
+		display: block;
+	}
+
+	.smallImage img {
+		width: 100%;
+	}
+
+	.callout {
+		float: none;
+		width: 90%%;
+		padding: 1em 5%;
+		border-bottom: 1px #cccccc solid;
+	}
+
+	.button {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.blurb {
+		background-color: #cccccc;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.button {
+		width: 100%;
+	}
+
+	.tagline {
+		display: none;
+	}
+}
+
+
+
+
+
+
