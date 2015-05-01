@@ -11,6 +11,10 @@ h1 {
 	background-color: #2396e9;
 }
 
+.hamburger {
+	display: none;
+}
+
 h2 {
 	font-size: 25px;
 	color: white;
@@ -139,7 +143,7 @@ strong {
 .mapplethorpe img {
 	float: left;
 	width: 100%;
-	padding-top: 200px;
+	padding-top: 75px;
 }
 
 .row2, .row3, .row4 {
@@ -219,7 +223,7 @@ strong {
 	overflow: hidden;
 	display: inline-block;
 	width: 500px;
-	padding-left: 450px;
+	padding-left: 350px;
 	vertical-align: bottom;
 }
 
@@ -253,7 +257,7 @@ strong {
 	display: inline-block;
 	width: 180px;
 	padding-left: 20px;
-	padding-top: 175px;
+	padding-top: 75px;
 	vertical-align: top;
 }
 
@@ -396,3 +400,206 @@ ul {
 #jyk button {
 	background-color: #CC831B;
 }
+
+@media only screen and (max-width: 1080px) {
+	.headerArea {
+		display: none;
+	}
+
+	h1 {
+		display: inline-block;
+		float: left;
+	}
+
+	#intro {
+		padding-left: 56px;
+	}
+
+	.paper {
+		display: block;
+	}
+
+	.hamburger {
+		display: inline-block;
+		padding-top: 10px;
+	}
+
+	.headline {
+		overflow: hidden;
+		background-color: #2396e9;
+	}
+
+	#inspiration {
+		padding: 100px 0 100px 56px;
+	}
+
+	.bianca {
+		display: block;
+	}
+
+	.roberts {
+		width: 45%;
+	}
+
+	.mapplethorpe img {
+		padding-top: 20px;
+	}
+
+	.mapplethorpe {
+		width: 25%;
+	}
+
+	.celine {
+		padding-left: 0;
+	}
+
+	.lain {
+		padding-left: 150px;
+	}
+
+	.loewe {
+		padding-left: 100px;
+	}
+
+	#music {
+		padding: 100px 56px 100px 56px;
+	}
+
+	.spotifyWidget {
+		width: auto;
+	}
+
+	.tracklist {
+		width: 35%;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#shop {
+		padding: 100px 56px 100px 56px;
+	}
+
+	.item {
+		margin-left: 0;
+		margin-right: 5%;
+	}
+
+	#jyk {
+		padding: 100px 56px 100px 56px;
+	}
+
+	.selfie {
+		width: 25%;
+	}
+
+	.bio {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#intro {
+		padding: 20px 2%;
+	}
+
+	.paper {
+		padding: 0;
+		margin: 0;
+		width: 96%;
+		background-color: rgba(0,0,0,0.0);
+		box-shadow: none;
+	}
+
+	.paper p {
+		color: #efefef;
+	}
+
+	#inspiration {
+		padding: 20px 2%;			
+	}
+
+	.bianca {
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+
+	.loewe {
+		padding: 0;
+		width: 100%;
+	}
+
+	#music {
+		padding: 20px 2%;	
+	}
+
+	.spotifyWidget {
+		float: none;
+		margin: none;
+	}
+	
+	.tracklist {
+		float: none;
+		font-size: 15px;
+		line-height: 17px;
+		width: 100%;
+	}
+
+	#shop {
+		padding: 20px 2%;	
+	}
+
+	.overview {
+		margin: 0;
+		display: inline-block;
+		float: none;
+		width: 30%;
+		margin-right: 2%;
+	}
+
+	.overview:nth-child(3) {
+		margin-right: 0;
+	}
+
+	.item {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.itemDescription {
+		width: 100%;
+	}
+
+	.item img {
+		width: 100%;
+		height: 100%;
+	}
+
+	#jyk {
+		padding: 20px 2%;			
+	}
+
+	.selfie {
+		width: 100%;
+	}
+
+	.bio {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

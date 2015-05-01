@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	$(".itemDescription").hide();
 	$(".item").click(function(){
-		$(this).siblings(".itemDescription").toggle();
+		$(this).siblings(".itemDescription").animate({
+			width: "toggle"}, 200);
 	});
 
 	//When user clicks buy button in shop
@@ -10,7 +11,7 @@ $(document).ready(function(){
 		$(this).css("background-color", "#666666")
 	});
 
-	// Header Background Stuff
+	// Header Background Scroll
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
 
