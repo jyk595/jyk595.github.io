@@ -505,7 +505,7 @@ ul {
 	.paper {
 		padding: 0;
 		margin: 0;
-		width: 96%;
+		width: 100%;
 		background-color: rgba(0,0,0,0.0);
 		box-shadow: none;
 	}
@@ -524,6 +524,14 @@ ul {
 		float: none;
 	}
 
+	.lain {
+		padding-left: 50px;
+	}
+
+	.charlieMay {
+		padding-left: 30px;
+	}
+
 	.loewe {
 		padding: 0;
 		width: 100%;
@@ -537,6 +545,10 @@ ul {
 		float: none;
 		margin: none;
 	}
+
+	.spotifyWidget iframe {
+		width: 100%
+	}
 	
 	.tracklist {
 		float: none;
@@ -545,8 +557,12 @@ ul {
 		width: 100%;
 	}
 
+	.openSpotify {
+		width: 100%;
+	}
+
 	#shop {
-		padding: 20px 2%;	
+		padding: 50px 2%;	
 	}
 
 	.overview {
@@ -584,6 +600,14 @@ ul {
 	}
 
 	.bio {
+		width: 100%;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	button {
 		width: 100%;
 	}
 }
