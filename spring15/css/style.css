@@ -63,6 +63,7 @@ strong {
 #container {
 	width: 100%;
 	margin-right: 5%;
+	position: relative;
 }
 
 #intro {
@@ -390,7 +391,7 @@ ul {
 }
 
 #jyk strong {
-	color: #E8D1D1;
+	color: #d3d3d3;
 	font-weight: normal;
 }
 
@@ -403,9 +404,11 @@ ul {
 	background-color: #CC831B;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1020px) {
 	.headerArea {
 		display: none;
+		top: 0;
+		left: -200px;
 	}
 
 	h1 {
@@ -532,8 +535,13 @@ ul {
 		float: none;
 	}
 
+	.opie {
+		width: 100%;
+	}
+
 	.lain {
-		padding-left: 50px;
+		padding-left: 30%;
+		width: 70%;
 	}
 
 	.charlieMay {
@@ -545,17 +553,21 @@ ul {
 		width: 100%;
 	}
 
+	.cocktail {
+		padding-top: 20px;
+	}
+
 	#music {
 		padding: 20px 2%;	
 	}
 
 	.spotifyWidget {
 		float: none;
-		margin: none;
+		margin: 0 auto;
 	}
 
 	.spotifyWidget iframe {
-		width: 100%
+		width: 100%;
 	}
 	
 	.tracklist {
