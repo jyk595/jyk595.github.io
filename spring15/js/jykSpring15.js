@@ -45,4 +45,22 @@ $(document).ready(function(){
 	      }
 	    }
 	 });
+
+    $(".hamburger").click(function(){
+    	if($(this).hasClass("open")) {
+    		$("#container").animate({
+    			left: 0
+    		}, 200);
+    		$(this).removeClass("open");
+    	$(".headerArea").hide();
+    	} else {
+	    	$("#container").animate({
+	    		left: 200
+	    	}, 200);
+	    	$(".headerArea").show().animate({
+	    		left: 0
+	    	}, 200);
+	    	$(this).addClass("open");
+    	}
+    });
 });
