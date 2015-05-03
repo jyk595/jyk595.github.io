@@ -12,9 +12,15 @@ h1 {
 	font-family: Helvetica;
 }
 
-.hamburger {
+.mainHamburger {
 	display: none;
 	font-size: 35px;
+}
+
+.secondHamburger {
+	display: none;
+	font-size: 35px;
+	display: inline-block;
 }
 
 h2 {
@@ -363,7 +369,7 @@ button a {
 
 #jyk {
 	background-color: #249C48;
-	padding: 100px 20px 200px 0;
+	padding: 100px 20px 400px 0;
 	padding-left: 14%;
 	overflow: hidden;
 }
@@ -429,10 +435,15 @@ ul {
 		display: block;
 	}
 
-	.hamburger {
+	.mainHamburger {
 		display: inline-block;
 		padding-top: 15px;
 		padding-left: 2%;
+	}
+
+	.secondHamburger {
+		display: block;
+		padding-top: 0;
 	}
 
 	.headline {
@@ -569,13 +580,7 @@ ul {
 
 	.spotifyWidget {
 		display: none;
-/*		float: none;
-		margin: 0 auto;*/
 	}
-/*
-	.spotifyWidget iframe {
-		width: 100%;
-	}*/
 
 	.smallSpotify {
 		display: block;
@@ -632,7 +637,10 @@ ul {
 	}
 
 	.selfie {
-		width: 100%;
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+		float: none;
 	}
 
 	.bio {

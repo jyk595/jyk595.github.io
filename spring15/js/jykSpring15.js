@@ -1,4 +1,23 @@
 $(document).ready(function(){
+    $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop:target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	 });
+
+    $(document).scrollsnap({
+    	snaps: ".snap",
+    	proximity: 200,
+    	easing: "easeOutBack"
+    });
+
 	$(".itemDescription").hide();
 	$(".item").click(function(){
 		$(this).siblings(".itemDescription").animate({
@@ -33,20 +52,7 @@ $(document).ready(function(){
 		}
 	});
 
-    $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop:target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	 });
-
-    $(".hamburger").click(function(){
+    $(".mainHamburger").click(function(){
     	if($(this).hasClass("open")) {
     		$("#container").animate({
     			left: 0
@@ -61,7 +67,17 @@ $(document).ready(function(){
 	    		left: 0
 	    	}, 200);
 	    	$(this).addClass("open");
+	    	$(".mainHamburger").css("display","none")
     	}
+    });
+
+    $(".secondHamburger").click(function(){
+    	$("#container").animate({
+    	left: 0
+		}, 200);
+		$(this).removeClass("open");
+		$(".headerArea").hide();
+		$(".mainHamburger").show();
     });
 
     $(".closeBox").click(function(){
