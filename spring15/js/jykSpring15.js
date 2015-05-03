@@ -52,7 +52,7 @@ $(document).ready(function(){
     			left: 0
     		}, 200);
     		$(this).removeClass("open");
-    	$(".headerArea").hide();
+    		$(".headerArea").hide();
     	} else {
 	    	$("#container").animate({
 	    		left: 200
@@ -62,5 +62,13 @@ $(document).ready(function(){
 	    	}, 200);
 	    	$(this).addClass("open");
     	}
+    });
+
+    $(".closeBox").click(function(){
+    	$(".headerArea").animate({
+    		width:'toggle',
+    	}, 200);
+    	$(".headerArea").hide();
+    	$(this).removeClass("open");
     });
 });

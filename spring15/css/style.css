@@ -283,6 +283,10 @@ strong {
 	width: 35%;
 }
 
+.smallSpotify {
+	display: none;
+}
+
 .tracklist {
 	display: block;
 	float: left;
@@ -564,11 +568,21 @@ ul {
 	}
 
 	.spotifyWidget {
-		float: none;
+		display: none;
+/*		float: none;
+		margin: 0 auto;*/
+	}
+/*
+	.spotifyWidget iframe {
+		width: 100%;
+	}*/
+
+	.smallSpotify {
+		display: block;
 		margin: 0 auto;
 	}
 
-	.spotifyWidget iframe {
+	.smallSpotify iframe {
 		width: 100%;
 	}
 	
@@ -633,19 +647,3 @@ ul {
 		width: 100%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
