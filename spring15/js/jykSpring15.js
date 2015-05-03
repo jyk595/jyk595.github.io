@@ -67,7 +67,7 @@ $(document).ready(function(){
 	    		left: 0
 	    	}, 200);
 	    	$(this).addClass("open");
-	    	$(".mainHamburger").css("display","none")
+	    	$(".mainHamburger").css("display","none");
     	}
     });
 

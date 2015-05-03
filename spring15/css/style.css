@@ -415,10 +415,6 @@ ul {
 }
 
 @media only screen and (max-width: 1020px) {
-	#container {
-		min-width: 769px;
-	}
-
 	.headerArea {
 		display: none;
 		top: 0;
