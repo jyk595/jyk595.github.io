@@ -29,7 +29,6 @@ strong {
 
 .headerArea {
 	margin-right: 2%;
-	margin-top: 15px;
 	display: block;
 	float: left;
 	position: fixed;
@@ -85,7 +84,6 @@ strong {
 
 .paper {
 	width: 478px;
-	height: 619px;
 	text-align: left;
 	background-color: #FFF0EF;
 	margin: 0 auto;
@@ -96,7 +94,10 @@ strong {
 	float: left;
 	box-shadow: 5px 10px 20px #666666;
 	margin-left: 14%;
+}
 
+.paper img {
+	width: 100%;
 }
 
 #inspiration {
@@ -419,6 +420,7 @@ ul {
 		display: none;
 		top: 0;
 		left: -200px;
+		font-size: 20px;
 	}
 
 	h1 {
@@ -442,7 +444,8 @@ ul {
 
 	.secondHamburger {
 		display: block;
-		padding-top: 0;
+		padding-top: 15px;
+		padding-right: 50px;
 	}
 
 	.headline {
@@ -632,7 +635,7 @@ ul {
 	}
 
 	#jyk {
-		padding: 20px 2%;			
+		padding: 20px 2% 200px 2%;			
 	}
 
 	.selfie {
