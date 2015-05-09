@@ -96,6 +96,11 @@ strong {
 	margin-left: 14%;
 }
 
+.kettleball {
+	margin-left: auto;
+    margin-right: auto;
+    display: block}
+
 .paper img {
 	width: 100%;
 }
@@ -324,47 +329,17 @@ button a {
 }
 
 #shop {
-	background: -webkit-linear-gradient(top, #7F7F7F 0%,#7F7F7F 73%,#249c48 100%); /* Chrome10+,Safari5.1+ */
-	padding: 100px 20px;
+	background: -webkit-linear-gradient(top, #7F7F7F 0%,#7F7F7F 95%,#249c48 100%); /* Chrome10+,Safari5.1+ */
+	padding: 100px 20px 750px 20px;
 	padding-left: 14%;
 	overflow: hidden;
 }
 
-.overview {
-	display: block;
-	float: left;
-}
-
-.item {
-	display: block;
-	float: left;
-	margin-left: 100px;
-	margin-bottom: 50px;
-}
-
-.item img 	{
-	width: 200px;
-	height: 200px;
-}
-
-.item p:hover {
-	color: white;
-	font-weight: bold;
-}
-
-.itemDescription {
-	display: block;
-	float: left;
-	margin-left: 20px;
-	width: 700px;
-	height: 252px;
-	margin-bottom: 50px;
-}
-
-.buyMe {
-	text-transform: uppercase;
-	font-size: 15px;
-	background-color: #2396e9;
+#shop .shopWidget iframe {
+	width: 100%;
+	height: 2000px;
+	border: none;
+	overflow: hidden;
 }
 
 #jyk {
@@ -429,11 +404,13 @@ ul {
 	}
 
 	#intro {
-		padding-left: 56px;
+		padding-left: 0;
 	}
 
 	.paper {
 		display: block;
+		float: none;
+		margin-left: auto;
 	}
 
 	.mainHamburger {
@@ -504,9 +481,8 @@ ul {
 		padding: 100px 56px 100px 56px;
 	}
 
-	.item {
-		margin-left: 0;
-		margin-right: 5%;
+	#shop .shopWidget iframe {
+		height: 2500px;
 	}
 
 	#jyk {
@@ -605,33 +581,13 @@ ul {
 	}
 
 	#shop {
-		padding: 50px 2%;	
+		padding: 50px 2% 25px 2%;	
 	}
 
-	.overview {
-		margin: 0;
-		display: inline-block;
-		float: none;
-		width: 30%;
-		margin-right: 2%;
-	}
-
-	.overview:nth-child(3) {
-		margin-right: 0;
-	}
-
-	.item {
+	#shop .shopWidget iframe {
 		width: 100%;
-		margin-right: 0;
-	}
-
-	.itemDescription {
-		width: 100%;
-	}
-
-	.item img {
-		width: 100%;
-		height: 100%;
+		height: 3200px;
+		padding-bottom: 200px;
 	}
 
 	#jyk {

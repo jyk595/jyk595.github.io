@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     $(document).scrollsnap({
     	snaps: ".snap",
-    	proximity: 200,
+    	proximity: 150,
     	easing: "easeOutBack"
     });
 
@@ -34,21 +34,21 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
 
-		if (scrollTop <= 800) {
-			$(".headerText").css("background-color", "white");
-			$(".headerText:eq(0)").css("background-color", "transparent");
-		} else if (scrollTop > 800 && scrollTop <= 3300) {
+		if (scrollTop <= 1100) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(1)").css("background-color", "transparent");
-		} else if (scrollTop > 3300 && scrollTop <= 4000) {
+		} else if (scrollTop > 1100 && scrollTop <= 3600) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(2)").css("background-color", "transparent");
-		} else if (scrollTop > 4000 && scrollTop <= 5400) {
+		} else if (scrollTop > 3600 && scrollTop <= 4300) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(3)").css("background-color", "transparent");
-		} else if (scrollTop > 5400){
+		} else if (scrollTop > 4300 && scrollTop <= 7150) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(4)").css("background-color", "transparent");
+		} else if (scrollTop > 7150){
+			$(".headerText").css("background-color", "white");
+			$(".headerText:eq(5)").css("background-color", "transparent");
 		}
 	});
 
