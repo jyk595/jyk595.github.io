@@ -34,19 +34,19 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
 
-		if (scrollTop <= 1100) {
+		if (scrollTop <= 1000) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(1)").css("background-color", "transparent");
-		} else if (scrollTop > 1100 && scrollTop <= 3600) {
+		} else if (scrollTop > 1000 && scrollTop <= 3500) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(2)").css("background-color", "transparent");
-		} else if (scrollTop > 3600 && scrollTop <= 4300) {
+		} else if (scrollTop > 3500 && scrollTop <= 4200) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(3)").css("background-color", "transparent");
-		} else if (scrollTop > 4300 && scrollTop <= 7150) {
+		} else if (scrollTop > 4200 && scrollTop <= 7000) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(4)").css("background-color", "transparent");
-		} else if (scrollTop > 7150){
+		} else if (scrollTop > 7000){
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(5)").css("background-color", "transparent");
 		}
