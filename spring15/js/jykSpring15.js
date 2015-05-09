@@ -24,12 +24,6 @@ $(document).ready(function(){
 			width: "toggle"}, 200);
 	});
 
-	//When user clicks buy button in shop
-	$(".buyMe").click(function(){
-		$(this).html("Remove Me");
-		$(this).css("background-color", "#666666")
-	});
-
 	// Header Background Scroll
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
@@ -43,16 +37,26 @@ $(document).ready(function(){
 		} else if (scrollTop > 3500 && scrollTop <= 4200) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(3)").css("background-color", "transparent");
-		} else if (scrollTop > 4200 && scrollTop <= 7000) {
+		} else if (scrollTop > 4200 && scrollTop <= 6200) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(4)").css("background-color", "transparent");
-		} else if (scrollTop > 7000){
+		} else if (scrollTop > 6200){
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(5)").css("background-color", "transparent");
 		}
 	});
 
+	//Hamburger Menu
     $(".mainHamburger").click(function(){
+
+    	// var contentWidth = jQuery('#container').width();
+
+    	// $('#container').css('width', contentWidth);
+
+    	// ('#container').bind('touchmove', function (e) {
+     //        e.preventDefault()
+     //    });
+
     	if($(this).hasClass("open")) {
     		$("#container").animate({
     			left: 0
