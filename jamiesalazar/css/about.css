@@ -1,0 +1,66 @@
+body {
+	background-color: #F3F3F3;
+}
+
+.about_section {
+	margin-bottom: 50px;
+	width: 75%;
+}
+
+.newsletter_input {
+	width: 300px;
+	padding: 7px 5px;
+	font-family: "Gentium Book Basic";
+	font-size: .75em;
+	color: #666666;
+	display: block;
+	float: left;
+}
+
+.submit_button {
+	text-transform: uppercase;
+	background-color: #666666;
+	color: white;
+	border: none;
+	height: 35px;
+	padding: 0 20px;
+	font-size: .75em;
+	font-family: "Gentium Book Basic";
+}
+
+.single {
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.question {
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+	p {
+		font-size: 1em;
+	}
+
+	.about_section {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.submit_button {
+		height: 31px;
+	}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+body {
+	font-size: 20px;
+}
+
+.container {
+	margin: 3%;
+}
+
+.hamburger {
+	display: none;
+}
+
+h1 {
+	font-family: "Gentium Book Basic";
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #666666;
+	letter-spacing: 3px;
+	display: block;
+	float: left;
+}
+
+h2 {
+	font-family: "Gentium Book Basic";
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #dedede;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 20%;
+}
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666666;
+	margin-bottom: 10px;
+	font-size: .75em;
+}
+
+header {
+	overflow: hidden;
+}
+
+.nav {
+	font-family: "Open Sans";
+	font-size: 1em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: block;
+	float: right;
+	padding: 0 0 5px 0;
+	color: #BABABA;
+	border-bottom: 3px solid #F3F3F3;
+	margin: 5px 15px;
+}
+
+.nav li:hover {
+	border-bottom: 3px solid #BABABA;
+}
+
+.main_content {
+	margin-top: 150px;
+}
+
+p {
+	font-family: "Gentium Book Basic";
+	font-size: .75em;
+	line-height: 1.25em;
+	color: #666666;
+}
+
+.noright {
+	margin-right: 0;
+}
+
+/*This area affects the footer style*/
+footer {
+	clear: both;
+	padding: 25px 0;
+	margin-top: 25px;
+}
+
+footer button {
+	border: none;
+	background: none;
+	font-family: "Gentium Book Basic";
+	font-size: .75em;
+}
+
+footer a {
+	color: #666666;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		font-size: 15px;
+	}
+
+	h2 {
+		margin-top: 50%;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+		float: left;
+		margin-right: 5%;
+		font-size: 1.5em;
+		color: #666666;
+	}
+
+	.main_content {
+		margin-top: 50px;
+	}
+
+	.photos {
+		width: 100%;
+	}
+}
