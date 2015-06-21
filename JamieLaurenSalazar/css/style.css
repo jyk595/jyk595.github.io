@@ -1,0 +1,158 @@
+/* UNIVERSAL STYLES */
+body {
+	font-size: 24px;
+}
+
+.container {
+	margin: 3%;
+}
+
+.hamburger {
+	display: none;
+	float: left;
+	margin-right: 25px;
+	font-size: 1.5em;
+	color: #666666;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+h1 {
+	font-family: "Gentium Book Basic";
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: "Gentium Book Basic";
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #dedede;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 20%;
+}
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: "Gentium Book Basic";
+	font-size: .75em;
+	line-height: 1.5em;
+	color: #666666;
+}
+
+/* NAV STYLES */
+header {
+	overflow: hidden;
+}
+
+.logo {
+	text-transform: uppercase;
+	color: #666666;
+	letter-spacing: 3px;
+	display: block;
+	float: left;
+}
+
+.nav {
+	font-family: "Open Sans";
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: block;
+	float: right;
+	padding: 0 0 5px 0;
+	color: #BABABA;
+	margin: 5px 15px;
+}
+
+.page-active li {
+	color: #666666;
+}
+
+.page-active li:hover {
+	border-bottom: none;
+}
+
+/* BODY STYLES */
+.main_content {
+	margin-top: 150px;
+}
+
+.noright {
+	margin-right: 0;
+}
+
+/* FOOTER STYLES */
+footer {
+	clear: both;
+	padding: 25px 0;
+	margin-top: 25px;
+}
+
+footer button {
+	border: none;
+	background: none;
+	font-family: "Gentium Book Basic";
+	font-size: .75em;
+}
+
+footer a {
+	color: #666666;
+	text-decoration: none;
+}
+
+/* TABLET & MOBILE VIEWS */
+@media screen and (max-width: 1024px) {
+
+	body {
+		font-size: 20px;
+	}
+
+	h2 {
+		margin-top: 50%;
+	}
+
+	.logo {
+		margin-bottom: 15px;
+	}
+
+	.nav {
+		display: none;
+		margin-left: 70px;
+	}
+
+	.nav li {
+		display: block;
+		color: #BABABA;
+		margin-top: 10px;
+		width: 100%;
+		padding: 0;
+	}
+
+	.page-active li {
+		color: #666666;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.main_content {
+		margin-top: 50px;
+	}
+
+	.photos {
+		width: 100%;
+	}
+}

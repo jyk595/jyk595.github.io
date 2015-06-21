@@ -28,10 +28,10 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
 
-		if (scrollTop <= 1000) {
+		if (scrollTop <= 950) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(1)").css("background-color", "transparent");
-		} else if (scrollTop > 1000 && scrollTop <= 3500) {
+		} else if (scrollTop > 950 && scrollTop <= 3500) {
 			$(".headerText").css("background-color", "white");
 			$(".headerText:eq(2)").css("background-color", "transparent");
 		} else if (scrollTop > 3500 && scrollTop <= 4200) {

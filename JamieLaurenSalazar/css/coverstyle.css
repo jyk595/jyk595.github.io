@@ -1,0 +1,27 @@
+html {
+	background: url("../images/43c9d97a-978f-4784-bf4a-a2a43461a70f-2060x1365.jpeg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.link_container {
+	text-align: center;
+}
+
+.link {
+	font-family: "Open Sans";
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin-top: 1.25em;
+	padding-bottom: .5em;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.link:first-child {
+	margin-right: 2.5em;
+}
