@@ -1,0 +1,281 @@
+/* BODY STYLES */
+body {
+	font-size: 16px;
+	max-width: 1000px;
+	margin: 25px auto;
+	background-color: rgb(233,226,221);
+	font-family: "Lato";
+}
+
+h1 {
+	font-size: 1.5em;
+	letter-spacing: .35em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: .9em;
+	font-weight: 400;
+	margin: 0;
+}
+
+h3 {
+	font-family: "Lato";
+	font-size: 1.5em;
+}
+
+p {
+	color: #949494;
+	font-family: "Merriweather";
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+strong {
+	color: #666666;
+	font-weight: 600;
+}
+
+button {
+	padding: 15px 25px;
+	background-color: #3FA9B2;
+	text-transform: uppercase;
+	font-family: "Lato";
+	font-size: 1.25em;
+	border: none;
+}
+
+button a {
+	color: white;
+}
+
+/* HEADER STYLES */
+.logo {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15px;
+	color: #998254;
+}
+
+.color1 {
+	color: #D2C6BD;
+}
+
+.color2 {
+	color: #255f68;
+}
+
+.color3 {
+	color: #9B9984;
+}
+
+.color4 {
+	color: #686125;
+}
+
+.color5 {
+	color: #CEC049;
+}
+
+.color6 {
+	color: #353113;
+}
+
+.color7 {
+	color: #9B9776;
+}
+
+.color8 {
+	color: #812852;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.navigation ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+.navigation li:nth-child(3) {
+	margin-right: none;
+}
+
+a {
+	font-size: .9em;
+	font-weight: 400;
+	margin: 0;
+	color: #998254;
+	text-decoration: none;
+}
+
+h2:hover {
+	color: #666666;
+}
+
+.section-headline {
+	color: #998254;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.section {
+	margin-top: 75px;
+	overflow: hidden;
+	width: 100%;
+}
+
+/* INTRO SECTION */
+.intro-text {
+	width: 40%;
+	margin: 75px 5% 0 5%;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.intro-image {
+	width: 50%;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.intro-image img {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	height: auto;
+}
+
+/* SPOTIFY STYLES */
+.spotify-widget	iframe {
+	display: block;
+	float: left;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.tracklist {
+	width: 60%;
+	display: block;
+	float: left;
+	text-align: left;
+}
+
+.tracklist ul {
+	margin: 0;
+}
+
+.tracklist li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+/* INSPIRATION STYLES */
+.inspiration-left {
+	display: block;
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+}
+
+.inspiration-right {
+	display: block;
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+}
+
+.inspiration img {
+	width: 100%;
+	height: auto;
+}
+
+h4 {
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+	color: #cccccc;
+	margin: 0;
+}
+
+.smaller-img {
+	margin: 0 50px;
+	width: 50%;
+}
+
+.inspiration-img {
+	margin-top: 50px;
+}
+
+/* ABOUT STYLES */
+.about .intro-text {
+	text-align: right;
+	margin-top: 0;
+}
+
+.about video {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* FOOTER STYLES */
+footer {
+	width: 100%;
+	height: 100px;
+}
+
+
+@media only screen and (max-width: 900px) {
+	body {
+		margin: 0 2.5%;
+	}
+
+	.section {
+		margin-top: 25px;
+	}
+
+	.intro-text, .intro-image {
+		width: 100%;
+		margin: 0;
+	}
+
+	.intro-image img, .spotify-widget iframe, .tracklist, .inspiration-right, .inspiration-left {
+		width: 100%;
+	}
+
+	.tracklist ul {
+		padding: 0;
+	}
+
+	.tracklist {
+		margin-top: 25px;
+		text-align: center;
+	}
+
+	.inspiration-left, .inspiration-right {
+		margin: 0;
+	}
+
+	.inspiration-img {
+		margin-top: 25px;
+	}
+
+	.shapton {
+		margin: 0 200px;
+		margin-top: 25px;
+	}
+	
+}
